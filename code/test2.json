@@ -1,0 +1,89 @@
+[
+  {
+    "type": "delay",
+    "name": "延迟操作",
+    "duration": 5
+  },
+  {
+    "type": "image_click",
+    "name": "点击终端",
+    "image_path": "C:/Users/21609/Desktop/code/opencv/code/pic/terminal.png",
+    "threshold": 0.1,
+    "max_attempts": 1
+  },
+  {
+    "type": "delay",
+    "name": "延迟操作",
+    "duration": 1
+  },
+  {
+    "type": "image_click",
+    "name": "点击曲谱",
+    "image_path": "C:/Users/21609/Desktop/code/opencv/code/pic/qupu.png",
+    "threshold": 0.1,
+    "max_attempts": 1
+  },
+  {
+    "type": "delay",
+    "name": "延迟操作",
+    "duration": 1
+  },
+  {
+    "type": "image_click",
+    "name": "点击黑暗时代",
+    "image_path": "C:/Users/21609/Desktop/code/opencv/code/pic/heianshidai.png",
+    "threshold": 0.1,
+    "max_attempts": 1
+  },
+  {
+    "type": "delay",
+    "name": "延迟操作",
+    "duration": 1
+  },
+  {
+    "type": "loop_start",
+    "name": "循环开始",
+    "iterations": 5
+  },
+  {
+    "type": "image_click",
+    "name": "点击1-7",
+    "image_path": "C:/Users/21609/Desktop/code/opencv/code/pic/1-7.png",
+    "threshold": 0.1,
+    "max_attempts": 1
+  },
+  {
+    "type": "if",
+    "name": "条件判断",
+    "target_node": "点击1-7",
+    "condition_type": "==",
+    "condition_value": "1"
+  },
+  {
+    "type": "break",
+    "name": "循环中断"
+  },
+  {
+    "type": "else",
+    "name": "条件结束"
+  },
+  {
+    "type": "drag",
+    "name": "拖动操作",
+    "direction": "left",
+    "distance": 400,
+    "duration": 0.5,
+    "start_position": "screen_center",
+    "custom_x": 0,
+    "custom_y": 0
+  },
+  {
+    "type": "delay",
+    "name": "延迟操作",
+    "duration": 1
+  },
+  {
+    "type": "loop_end",
+    "name": "循环结束"
+  }
+]
