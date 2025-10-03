@@ -1,0 +1,60 @@
+[
+  {
+    "type": "image_click",
+    "name": "点击终端",
+    "image_path": "./code/pic/terminal.png",
+    "threshold": 0.1,
+    "max_attempts": 1
+  },
+  {
+    "type": "delay",
+    "name": "等待界面加载",
+    "duration": 2
+  },
+  {
+    "type": "image_click",
+    "name": "点击曲谱",
+    "image_path": "./code/pic/qupu.png",
+    "threshold": 0.1,
+    "max_attempts": 1
+  },
+  {
+    "type": "delay",
+    "name": "等待曲谱加载",
+    "duration": 2
+  },
+  {
+    "type": "image_click",
+    "name": "点击黑暗时代",
+    "image_path": "./code/pic/heianshidai.png",
+    "threshold": 0.1,
+    "max_attempts": 1
+  },
+  {
+    "type": "delay",
+    "name": "等待黑暗时代加载",
+    "duration": 2
+  },
+  {
+    "type": "drag",
+    "name": "向左拖动屏幕",
+    "direction": "left",
+    "distance": 400,
+    "duration": 0.5
+  },
+  {
+    "type": "drag",
+    "name": "向右拖动屏幕",
+    "direction": "right",
+    "distance": 400,
+    "duration": 0.5
+  },
+  {
+    "type": "drag_click",
+    "name": "拖动查找1-7",
+    "image_path": "./code/pic/1-7.png",
+    "threshold": 0.1,
+    "max_swipes": 5,
+    "swipe_distance": 400
+  }
+]
