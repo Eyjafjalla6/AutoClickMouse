@@ -172,11 +172,11 @@ click_part1()
 
 
 
-![image-20251003231431297](./README.assets/image-20251003231431297.png)
+![image-20251003231431297](./code/README.assets/image-20251003231431297.png)
 
 
 
-![image-20251004000342406](./README.assets/image-20251004000342406.png)
+![image-20251004000342406](./code/README.assets/image-20251004000342406.png)
 
 
 
@@ -190,21 +190,22 @@ PS C:\Users\21609\Desktop\code\opencv> uv run .\code\autoclick_gui.py -p 3.11
 
 
 
-![image-20251004000353997](./README.assets/image-20251004000353997.png)
+![image-20251004000353997](./code/README.assets/image-20251004000353997.png)
 
 
 
 最终版
 
-![image-20251004000406898](./README.assets/image-20251004000406898.png)
+![image-20251004000406898](./code/README.assets/image-20251004000406898.png)
 
 
 
-![image-20251004000413430](./README.assets/image-20251004000413430.png)
+![image-20251004000413430](./code/README.assets/image-20251004000413430.png)
 
 
 
-![image-20251004000419171](./README.assets/image-20251004000419171.png)
+![image-20251004000419171](./code/README.assets/image-20251004000419171.png)
+
 
 
 
